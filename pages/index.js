@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import db from '../db.json';
 
+import Header from '../src/components/Header'
 import QuizBackground from '../src/components/QuizBackground';
 import Widget from '../src/components/Widget/index.js'
 import Footer from '../src/components/Footer';
@@ -53,8 +54,10 @@ export default function Home() {
     /*
     //<Title>My page</Title>// toda fez que aparecer alguma tag que tem a letra maiúscula, representa que CRIAMOS essa tag 
     */
-
-    <QuizBackground backgroundImage={db.bg}>
+ 
+   <QuizBackground backgroundImage={db.bg}>
+      {/* meta-tags */}
+      <Header />
       <QuizContainer>
         <Widget>
           <Widget.Header>
@@ -76,7 +79,5 @@ export default function Home() {
       <GitHubCorner projectUrl="https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz" />
       </QuizContainer>
     </QuizBackground>
-
   )
-  
 }
