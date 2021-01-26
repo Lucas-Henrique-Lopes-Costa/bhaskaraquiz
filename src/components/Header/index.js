@@ -1,12 +1,9 @@
-import Head from 'next/head'
+import React from 'react';
+import Head from 'next/head';
 
 export default function Header() {
   return (
     <div>
-      <Head>
-        <title>My page title</title>
-        <meta property="og:title" content="My page title" key="title" />
-      </Head>
       <Head>
         <meta property="og:title" content="My new title" key="title" />
         {/*  Primary Meta Tags */}
@@ -22,13 +19,13 @@ export default function Header() {
         <meta property="og:description" content="Projeto de Quiz construído a partir da comunidade Alura." />
         <meta property="og:image" content="" />
 
-        {/*// Twitter */}
+        {/* // Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://bhaskaraquiz.lucas-henrique-lopes-costa.vercel.app/" />
         <meta property="twitter:title" content="The Legend of Bhaskara" />
         <meta property="twitter:description" content="Projeto de Quiz construído a partir da comunidade Alura." />
-        <meta property="twitter:image" content=""></meta>
+        <meta property="twitter:image" content="" />
       </Head>
     </div>
-  )
+  );
 }

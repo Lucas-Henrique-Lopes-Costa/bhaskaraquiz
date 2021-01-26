@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 // ! SEMPRE DEVE CHAMAR A BIBLIOTECA PARA QUE OS ELEMENTOS AQUI POSSAM RECEBER OS ATRIBUTOS
 
 //* Configuração do Widget do Quiz
@@ -37,7 +37,7 @@ Widget.Header = styled.header`
 `;
 
 //* Configuração do Conteúdo dos Widget
-  // O Widget.Content ajuda na organização da aplicação
+// O Widget.Content ajuda na organização da aplicação
 Widget.Content = styled.div` 
   padding: 24px 32px 32px 32px;
   & > *:first-child {
