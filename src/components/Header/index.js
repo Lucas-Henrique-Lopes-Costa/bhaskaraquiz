@@ -1,11 +1,12 @@
 import React from 'react';
 import Head from 'next/head';
+import db from '../db.json';
 
 export default function Header() {
   return (
     <div>
       <Head>
-        <meta property="og:title" content="My new title" key="title" />
+        <meta property="og:title" content="The Legend of Bhaskara" key="title" />
         {/*  Primary Meta Tags */}
         <title>The Legend of Bhaskara</title>
         <meta name="title" content="The Legend of Bhaskara" />
@@ -17,14 +18,14 @@ export default function Header() {
         <meta property="og:url" content="https://bhaskaraquiz.lucas-henrique-lopes-costa.vercel.app/" />
         <meta property="og:title" content="The Legend of Bhaskara" />
         <meta property="og:description" content="Projeto de Quiz construído a partir da comunidade Alura." />
-        <meta property="og:image" content="" />
+        <meta property="og:image" content="{db.bg}" />
 
         {/* // Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://bhaskaraquiz.lucas-henrique-lopes-costa.vercel.app/" />
         <meta property="twitter:title" content="The Legend of Bhaskara" />
         <meta property="twitter:description" content="Projeto de Quiz construído a partir da comunidade Alura." />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:image" content="{db.bg}" />
       </Head>
     </div>
   );
