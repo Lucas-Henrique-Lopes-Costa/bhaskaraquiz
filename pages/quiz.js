@@ -1,9 +1,11 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import db from '../db.json';
 
 import Header from '../src/components/Header';
 import Widget from '../src/components/Widget';
 import QuizBackground from '../src/components/QuizBackground';
+// eslint-disable-next-line import/no-named-as-default
 import QuizContainer from '../src/components/QuizContainer';
 import Button from '../src/components/Button';
 
