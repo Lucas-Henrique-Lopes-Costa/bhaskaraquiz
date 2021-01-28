@@ -6,7 +6,6 @@ import db from '../db.json';
 
 // TODO: Isso é JavaScript "empurrando o CSS"
 import Header from '../src/components/Header';
-import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
 import Widget from '../src/components/Widget';
 import Footer from '../src/components/Footer';
