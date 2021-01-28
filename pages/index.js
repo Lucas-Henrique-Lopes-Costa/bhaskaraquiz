@@ -1,15 +1,20 @@
 /* eslint-disable func-names */
 import React from 'react';
 
-import styled from 'styled-components';
 import { useRouter } from 'next/router';
 import db from '../db.json';
 
+// TODO: Isso é JavaScript "empurrando o CSS"
 import Header from '../src/components/Header';
+import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
 import Widget from '../src/components/Widget';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
+// eslint-disable-next-line import/no-named-as-default
+import QuizContainer from '../src/components/QuizContainer';
 
 /*
 const Title = styled.h1`
@@ -30,19 +35,6 @@ const Title = styled.h1`
 // }
 */
 
-// TODO: Isso é JavaScript "empurrando o CSS"
-//* Configuração do Conteiner com o Quiz
-export const QuizContainer = styled.div`
-  width: 100%;
-  max-width: 350px;
-  padding-top: 45px;
-  margin: auto 10%;
-  @media screen and (max-width: 500px) {
-    margin: auto;
-    padding: 15px;
-  }
-`;
-
 // TODO: Isso é Next
 // !O next interpreta o Home() como a cara da nossa página
 export default function Home() {
@@ -57,6 +49,7 @@ export default function Home() {
 
       {/* Containers */}
       <QuizContainer>
+        <QuizLogo />
         <Widget>
           <Widget.Header>
             <h1>The Legend of Bhaskara</h1>
@@ -75,25 +68,19 @@ export default function Home() {
               // router manda para a próxima página
             }}
             >
-              <input
+              <Input
                 // quando mudar ele executa a função
-                onChange={function (infosDoEvento) {
-                  // eslint-disable-next-line no-console
-                  console.log(infosDoEvento.target.value);
-
+                onChange={(infosDoEvento) => {
                   // !State => faz ou não o componete mudar, quando mudar ele muda apenas aquilo
                   setName(infosDoEvento.target.value);
-
-                  // name = infosDoEvento.target.value;
                 }}
                 placeholder="Coloque o seu nome"
               />
 
               {/* Criando a validação */}
-              <button type="submit" disabled={name.length === 0}>
-                Jogar
-                {name}
-              </button>
+              <Button type="submit" disabled={name.length === 0}>
+                {`Jogar ${name}`}
+              </Button>
             </form>
           </Widget.Content>
         </Widget>
