@@ -11,7 +11,8 @@ export default function Header() {
         <meta name="title" content="The Legend of Bhaskara" />
         <meta name="description" content="Projeto de Quiz construído a partir da comunidade Alura." />
 
-        <link rel="icon" href="https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/main/src/img/formula.png" />
+        <link rel="icon" href="https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/9b49ed1912f12142e0e0c476d41b9f00aa8bd64b/src/img/formula.png?raw=true" />
+
         {/*  Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://bhaskaraquiz.lucas-henrique-lopes-costa.vercel.app/" />
