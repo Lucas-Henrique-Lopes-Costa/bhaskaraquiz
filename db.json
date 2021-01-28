@@ -4,26 +4,63 @@
     "description": "Teste os seus conhecimentos sobre Bhaskara e vamos ver quanto que os professores de Matemática consiguiram implantar em sua mente",
     "questions": [
     {
-      "image": "",
-      "title": "Utilizando seus conhecimentos sobre equação do segundo grau, julgue as afirmativas a seguir como verdadeiras ou falsas: \n\nA) todas estão incorretas. \n\nB) somente a afirmativa I está correta. \n\nC) somente a afirmativa II está correta. \n\nD) somente a afirmativa III está correta. \n\nE) todas estão corretas.",
-      "description": "Essa é pra aquecer",
-      "answer": 2,
+      "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/main/src/img/pergunta/pergunta1.gif",
+      "title": "Um terreno quadrado possui área de 144 metros quadrados e apenas a sua frente ainda não está murada. Quantos metros de muro terão que ser feitos para isolar completamente esse terreno?",
+      "description": "Faz tempo em haha (lembrando a grandiosisima música QUADRADINHO DE OITO)",
+      "answer": 0,
       "alternatives": [
-        "A) todas estão incorretas.",
-        "B) somente a afirmativa I está correta.",
-        "C) somente a afirmativa II está correta.",
-        "D) somente a afirmativa III está correta.",
-        "E) todas estão corretas."
+        "a) 144 m",
+        "b) 576 m",
+        "c) 24 m",
+        "d) 18 m",
+        "e) 12 m"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
-      "answer": 0,
+      "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/main/src/img/pergunta2.png",
+      "title": "O gráfico da função f(x) = ax^2 + bx + c está representado na figura a seguir.",
+      "answer": 2,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+        "a) a < 0.",
+        "b) b < 0.",
+        "c) c = 0.",
+        "d) b2 – 4ac = 0."
+      ]
+    },
+    {
+      "image": "",
+      "title": "A multiplicação entre a idade de Kárita e a idade de Karla é igual a 374. Kárita é 5 anos mais velha que Karla. Quantos anos Karla e Kárita possuem respectivamente?",
+      "answer": 2,
+      "alternatives": [
+        "A) 12 e 17 anos",
+        "B) 17 e 22 anos",
+        "C) 22 e 27 anos",
+        "D) 20 e 25 anos",
+        "E) 18 e 23 anos"
+      ]
+    },
+    {
+      "image": "https://lh3.ggpht.com/-mEzKvL5uDXw/UiosOfYjP-I/AAAAAAAAT7Q/nQX9gYWcD-w/Via%252520Humortisado%252520%2525281%252529%25255B5%25255D.gif?imgmax=800",
+      "title": "Se o Delta de uma Equação de 2º for igual a 0, quantas raízes teremos:",
+      "answer": 3,
+      "alternatives": [
+        "A) Apenas uma raíz",
+        "B) Duas raízes diferente",
+        "C) Duas raízes iguais",
+        "D) Duas raízes ",
+        "E) Duas raízes que não pertencem ao conunto dos números reais"
+      ]
+    },
+    {
+      "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/main/src/img/pergunta/pergunta2.png",
+      "title": "Por que você aprendeu isso:",
+      "answer": 3,
+      "alternatives": [
+        "A) porque fui obrigado",
+        "B) porque amo matemática",
+        "C) porque isso faz toda diferença na minha vida",
+        "D) porque eu sou um maluco",
+        "E) nenhuma das anteriores"
       ]
     }
   ],
