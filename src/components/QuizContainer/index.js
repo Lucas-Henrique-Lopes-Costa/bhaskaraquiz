@@ -8,6 +8,10 @@ export const QuizContainer = styled.div`
   padding-top: 45px;
   margin: auto 10%;
 
+  img {
+    height: 150px;
+  }
+
   @media screen and (max-width: 500px) {
     margin: auto;
     padding: 15px;

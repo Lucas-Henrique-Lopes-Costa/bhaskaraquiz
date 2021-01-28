@@ -105,11 +105,11 @@ export default function QuizPage() {
   const totalQuestions = db.questions.length;
 
   const [currentQuestion, setCurrentQuestion] = React.useState(0);
-  const questionIndex = setCurrentQuestion;
+  const questionIndex = currentQuestion;
 
   const question = db.questions[questionIndex];
 
-  // !COLOCANDO TEMPO PARA PASSAR PARA AS QUESTÕES
+  // !COLOCANDO TEMPO PARA ENTRAR NAS QUESTÕES
   const [screenState, setScreenState] = React.useState(screenStates.LOADING);
   // *começa com o LOADING
 
