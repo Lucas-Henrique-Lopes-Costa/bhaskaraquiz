@@ -17,19 +17,9 @@
       ]
     },
     {
-      "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/ed2ff0e5a67a7e00caf59d0f230a3595d6124f1d/src/img/pergunta/pergunta2.png?raw=true",
-      "title": "O gráfico da função f(x) = ax^2 + bx + c está representado na figura a seguir.",
-      "answer": 2,
-      "alternatives": [
-        "a) a < 0.",
-        "b) b < 0.",
-        "c) c = 0.",
-        "d) b2 – 4ac = 0."
-      ]
-    },
-    {
       "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/main/src/img/pergunta/pergunta3.gif?raw=true",
       "title": "A multiplicação entre a idade de Kárita e a idade de Karla é igual a 374. Kárita é 5 anos mais velha que Karla. Quantos anos Karla e Kárita possuem respectivamente?",
+      "description": "Faz tempo em haha (lembrando a grangrandiosíssima diosisima música QUADRADINHO DE OITO)",
       "answer": 2,
       "alternatives": [
         "A) 12 e 17 anos",
@@ -42,6 +32,7 @@
     {
       "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/ed2ff0e5a67a7e00caf59d0f230a3595d6124f1d/src/img/pergunta/pergunta4.gif?raw=true",
       "title": "Se o Delta de uma Equação de 2º for igual a 0, quantas raízes teremos:",
+      "description": "Tenta não viajar nessa, hemmm??",
       "answer": 3,
       "alternatives": [
         "A) Apenas uma raíz",
@@ -54,6 +45,7 @@
     {
       "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/main/src/img/pergunta/pergunta5.gif?raw=true",
       "title": "Por que você aprendeu isso:",
+      "description": "Seja sincero",
       "answer": 3,
       "alternatives": [
         "A) porque fui obrigado",
@@ -61,6 +53,16 @@
         "C) porque isso faz toda diferença na minha vida",
         "D) porque eu sou um maluco",
         "E) nenhuma das anteriores"
+      ]
+    },
+    {
+      "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/main/src/img/pergunta/pergunta5.gif?raw=true",
+      "title": "Quer aprender mais:",
+      "description": "Veja essa playlist: https://youtube.com/playlist?list=PLbWlHFWISfAPRxebAKPynBZHXNBqB0WRT",
+      "answer": 1,
+      "alternatives": [
+        "Sim",
+        "Não"
       ]
     }
   ],
