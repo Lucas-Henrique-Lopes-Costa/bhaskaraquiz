@@ -146,7 +146,6 @@ export default function QuizPage() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
-        <QuizLogo />
 
         {/* Primeiro temos que ver o que está acontecendo na tela */}
 

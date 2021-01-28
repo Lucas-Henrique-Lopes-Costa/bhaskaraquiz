@@ -49,7 +49,6 @@ export default function Home() {
 
       {/* Containers */}
       <QuizContainer>
-        <QuizLogo />
         <Widget>
           <Widget.Header>
             <h1>The Legend of Bhaskara</h1>
