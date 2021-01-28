@@ -4,7 +4,7 @@
     "description": "Teste os seus conhecimentos sobre Bhaskara e vamos ver quanto que os professores de Matemática consiguiram implantar em sua mente",
     "questions": [
     {
-      "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/main/src/img/pergunta/pergunta1.gif",
+      "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/ed2ff0e5a67a7e00caf59d0f230a3595d6124f1d/src/img/pergunta/pergunta1.gif?raw=true",
       "title": "Um terreno quadrado possui área de 144 metros quadrados e apenas a sua frente ainda não está murada. Quantos metros de muro terão que ser feitos para isolar completamente esse terreno?",
       "description": "Faz tempo em haha (lembrando a grandiosisima música QUADRADINHO DE OITO)",
       "answer": 0,
@@ -17,7 +17,7 @@
       ]
     },
     {
-      "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/main/src/img/pergunta2.png",
+      "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/ed2ff0e5a67a7e00caf59d0f230a3595d6124f1d/src/img/pergunta/pergunta2.png?raw=true",
       "title": "O gráfico da função f(x) = ax^2 + bx + c está representado na figura a seguir.",
       "answer": 2,
       "alternatives": [
@@ -28,7 +28,7 @@
       ]
     },
     {
-      "image": "",
+      "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/main/src/img/pergunta/pergunta3.gif?raw=true",
       "title": "A multiplicação entre a idade de Kárita e a idade de Karla é igual a 374. Kárita é 5 anos mais velha que Karla. Quantos anos Karla e Kárita possuem respectivamente?",
       "answer": 2,
       "alternatives": [
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "image": "https://lh3.ggpht.com/-mEzKvL5uDXw/UiosOfYjP-I/AAAAAAAAT7Q/nQX9gYWcD-w/Via%252520Humortisado%252520%2525281%252529%25255B5%25255D.gif?imgmax=800",
+      "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/ed2ff0e5a67a7e00caf59d0f230a3595d6124f1d/src/img/pergunta/pergunta4.gif?raw=true",
       "title": "Se o Delta de uma Equação de 2º for igual a 0, quantas raízes teremos:",
       "answer": 3,
       "alternatives": [
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/main/src/img/pergunta/pergunta2.png",
+      "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/main/src/img/pergunta/pergunta5.gif?raw=true",
       "title": "Por que você aprendeu isso:",
       "answer": 3,
       "alternatives": [
