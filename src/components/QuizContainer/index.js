@@ -3,14 +3,10 @@ import styled from 'styled-components';
 
 //* Configuração do Conteiner com o Quiz
 export const QuizContainer = styled.div`
-  width: 100%;
+  width: 90%;
   max-width: 450px;
   padding-top: 45px;
-  margin: auto 10%;
-
-  img {
-    height: 150px;
-  }
+  margin: auto 5%;
 
   @media screen and (max-width: 500px) {
     margin: auto;

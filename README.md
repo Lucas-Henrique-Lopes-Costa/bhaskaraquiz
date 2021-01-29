@@ -14,6 +14,9 @@
 - [ ] Fazer a seleção das alternativas funcionar (no modo easy com alert() ou no modo hard com mudança de state)
 - [ ] Traga suas questões de JavaScript, de Java, de PHP ou do que mais quiser e vamos trocar conhecimento!
 - [ ] Comece a pensar na lógica por trás do quiz. Contagem de pontos? Como e quando finalizar o jogo? Quem ganha ou perde?
+- [ ] Desafio do Paulo: Resolver a contagem de pontos utilizando um bitset (ou bitmap)!
+- [ ] Mais um desafio do Paulo: Publique seu quiz na Vercel e faça barulho nas redes, tageando o @rauchg!
+- [ ] Desafio da Ju: Pegue o query param name e exiba o nome da pessoa que está jogando na tela de resultados. Dica: o Next.js tem uma lib pra te ajudar nisso!
 
 # Aprendizado
 * Iniciar um projeto com o **boilerplate** do React com **Next.js** e **styled-components**;
@@ -40,3 +43,15 @@
 * Trabalhar com os estados (states) da página de quiz para alternar carregamento, questões e resultado;
 * Entender o ciclo de vida dos componentes do React;
 * utilizar ``useEffects()`` para adicionar ações ao componente da tela de quiz;
+* Criar o componente <Input>;
+* Desenvolver o algoritmo de seleção de alternativa para cada pergunta;
+* Statements x expressões no React;
+* Ver mais sobre props do React e a prop key;
+* Manejo de estados com a renderização de várias instâncias de um mesmo componente;
+* Lógica da seleção de alternativas, habilitação do botão e troca de pergunta (utilizando estados, atributos do HTML e índices da array);
+* Lógica da contagem de pontos com alteração de estado;
+* Atualização dos pontos com o ciclo de atualização do React;
+* Exibir a tela de resultados com a soma dos pontos e as alternativas escolhidas ao final das perguntas;
+* Usar atributo data-[] para passar informações de estilo para o componente das alternativas;
+* Criar lambda servers com Next.js para retornar endpoints;
+* Passar configurações de CORS para poder acessar quizes externos;

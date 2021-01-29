@@ -55,15 +55,11 @@ export default function Home() {
           </Widget.Header>
 
           <Widget.Content>
-            <p>Será que você será mellhor do que Pitágoras ??</p>
+            <p>Será que você será melhor do que Pitágoras ??</p>
 
             <form onSubmit={function (infosDoEvento) {
               infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`);
-
-              // eslint-disable-next-line no-console
-              console.log('Fazendo uma subção ocm o React!');
-
               // router manda para a próxima página
             }}
             >
@@ -90,7 +86,7 @@ export default function Home() {
           </Widget.Header>
 
           <Widget.Content>
-            <p>Aqui alguns outros Quizes muito maneiros de alguns de meus colegas!!</p>
+            <p>Aqui alguns outros quizes muito maneiros de alguns de meus colegas!!</p>
           </Widget.Content>
         </Widget>
 

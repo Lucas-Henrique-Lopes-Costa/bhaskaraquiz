@@ -7,7 +7,7 @@
       "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/ed2ff0e5a67a7e00caf59d0f230a3595d6124f1d/src/img/pergunta/pergunta1.gif?raw=true",
       "title": "Um terreno quadrado possui área de 144 metros quadrados e apenas a sua frente ainda não está murada. Quantos metros de muro terão que ser feitos para isolar completamente esse terreno?",
       "description": "Faz tempo em haha (lembrando a grandiosisima música QUADRADINHO DE OITO)",
-      "answer": 0,
+      "answer": 4,
       "alternatives": [
         "a) 144 m",
         "b) 576 m",
@@ -20,7 +20,7 @@
       "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/33fb182f98dbba3f3c90c7931f6a714698d2f704/src/img/pergunta/pergunta2.gif?raw=true",
       "title": "A multiplicação entre a idade de Kárita e a idade de Karla é igual a 374. Kárita é 5 anos mais velha que Karla. Quantos anos Karla e Kárita possuem respectivamente?",
       "description": "Manda Kárita ir plantar bananeira e segue sua vida!",
-      "answer": 2,
+      "answer": 1,
       "alternatives": [
         "A) 12 e 17 anos",
         "B) 17 e 22 anos",
@@ -33,12 +33,12 @@
       "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/33fb182f98dbba3f3c90c7931f6a714698d2f704/src/img/pergunta/pergunta3.gif?raw=true",
       "title": "Se o Delta de uma Equação de 2º for igual a 0, quantas raízes teremos:",
       "description": "Tenta não viajar nessa, hemmm??",
-      "answer": 3,
+      "answer": 2,
       "alternatives": [
         "A) Apenas uma raíz",
-        "B) Duas raízes diferente",
-        "C) Duas raízes iguais",
-        "D) Duas raízes ",
+        "B) Duas raízes iguais",
+        "C) Duas raízes ",
+        "D) Duas raízes diferente",
         "E) Duas raízes que não pertencem ao conunto dos números reais"
       ]
     },
@@ -46,7 +46,7 @@
       "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/33fb182f98dbba3f3c90c7931f6a714698d2f704/src/img/pergunta/pergunta4.gif?raw=true",
       "title": "Por que você aprendeu isso:",
       "description": "Seja sincero",
-      "answer": 3,
+      "answer": 2,
       "alternatives": [
         "A) porque fui obrigado",
         "B) porque amo matemática",
@@ -59,7 +59,7 @@
       "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/33fb182f98dbba3f3c90c7931f6a714698d2f704/src/img/pergunta/pergunta5.gif?raw=true",
       "title": "Quer aprender mais:",
       "description": "Veja essa playlist: encurtador.com.br/jsxAB",
-      "answer": 1,
+      "answer": 0,
       "alternatives": [
         "Sim",
         "Não"
