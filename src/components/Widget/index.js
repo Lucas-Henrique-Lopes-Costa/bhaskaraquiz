@@ -68,6 +68,11 @@ Widget.Topic = styled.a`
   &:focus {
     opacity: .5;
   }
+
+  /* .disable {
+    pointer-events:none; //This makes it not clickable
+    opacity:0.6;         //This grays it out to look disabled
+  } */
 `;
 
 export default Widget;

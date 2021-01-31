@@ -33,11 +33,11 @@
       "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/33fb182f98dbba3f3c90c7931f6a714698d2f704/src/img/pergunta/pergunta3.gif?raw=true",
       "title": "Se o Delta de uma Equação de 2º for igual a 0, quantas raízes teremos:",
       "description": "Tenta não viajar nessa, hemmm??",
-      "answer": 1,
+      "answer": 2,
       "alternatives": [
         "A) Apenas uma raíz",
-        "B) Duas raízes iguais",
-        "C) Duas raízes ",
+        "B) Duas raízes ",
+        "C) Duas raízes iguais",
         "D) Duas raízes diferente",
         "E) Duas raízes que não pertencem ao conunto dos números reais"
       ]
@@ -48,11 +48,11 @@
       "description": "Seja sincero",
       "answer": 2,
       "alternatives": [
-        "A) porque fui obrigado",
-        "B) porque amo matemática",
-        "C) porque isso faz toda diferença na minha vida",
-        "D) porque eu sou um maluco",
-        "E) nenhuma das anteriores"
+        "A) Porque fui obrigado",
+        "B) Porque amo matemática",
+        "C) Porque isso faz toda diferença na minha vida",
+        "D) Porque eu sou um maluco",
+        "E) Nenhuma das anteriores"
       ]
     },
     {
@@ -67,7 +67,9 @@
     }
   ],
   "external": [
-    ""
+    "https://1sec-quiz.victoroda.vercel.app/",
+    "https://aluraquiz-css.omariosouto.vercel.app/",
+    "https://agilequiz-base-git-main.lbarroslgb.vercel.app/"
   ],
   "theme": {
     "colors": {

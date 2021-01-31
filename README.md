@@ -15,8 +15,12 @@
 - [x] Traga suas questões de JavaScript, de Java, de PHP ou do que mais quiser e vamos trocar conhecimento!
 - [x] Comece a pensar na lógica por trás do quiz. Contagem de pontos? Como e quando finalizar o jogo? Quem ganha ou perde?
 - [ ] Desafio do Paulo: Resolver a contagem de pontos utilizando um bitset (ou bitmap)!
-- [ ] Mais um desafio do Paulo: Publique seu quiz na Vercel e faça barulho nas redes, tageando o @rauchg!
-- [ ] Desafio da Ju: Pegue o query param name e exiba o nome da pessoa que está jogando na tela de resultados. Dica: o Next.js tem uma lib pra te ajudar nisso!
+- [x] Mais um desafio do Paulo: Publique seu quiz na Vercel e faça barulho nas redes, tageando o @rauchg!
+- [ ] Desafio da Ju: Pegue o query ``param name`` e exiba o nome da pessoa que está jogando na tela de resultados. Dica: o Next.js tem uma lib pra te ajudar nisso!
+- [ ] Desafio do Paulo: Refatorar a expressão regular que usamos para customizar os links dos quizes externos nos botões, para que funcionem em todos os corner cases.
+- [x] Desafio do Soltinho: Reaproveitar os componentes da página de quiz para montar a página do quiz externo.
+- [ ] Desafio de Ju: Deixar os botões para os quizes da galera desabilitados enquanto o usuário não preencher o nome no input.
+
 
 # Aprendizado
 * Iniciar um projeto com o **boilerplate** do React com **Next.js** e **styled-components**;
@@ -55,3 +59,13 @@
 * Usar atributo ``data-[]`` para passar informações de estilo para o componente das alternativas;
 * Criar lambda servers com Next.js para retornar endpoints;
 * Passar configurações de CORS para poder acessar quizes externos;
+* Listar endereços dos quizes da galera na página principal, a partir do arquivo db.json;
+* Reaproveitar o componente de Widget;
+* Acrescentar botões para os quizes da galera;
+* Criar rotas com parâmetros dinâmicos com Next.js;
+* Usar métodos de otimização por SSR para criar páginas dinâmicas;
+* Trabalhar com promessas utilizando a Fetch API e Promises;
+* Organizar o projeto com a pasta screens para definir leiautes de páginas;
+* Passar para a página de quiz as props dos quizes externos;
+* Usar o componente ``<Link>`` do Next.js para fazer a navegação no formato SPA;
+* Usar o Framer Motion para criar animações de entrada para os widgets;

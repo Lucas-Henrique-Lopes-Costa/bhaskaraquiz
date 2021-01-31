@@ -1,22 +1,20 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import db from '../db.json';
+// import db from '../../../db.json';
 
-import Header from '../src/components/Header';
-import Widget from '../src/components/Widget';
-import QuizBackground from '../src/components/QuizBackground';
+import Header from '../../components/Header';
+import Widget from '../../components/Widget';
+import QuizBackground from '../../components/QuizBackground';
 // eslint-disable-next-line import/no-named-as-default
-import QuizContainer from '../src/components/QuizContainer';
-import AlternativesForm from '../src/components/AlternativesForm';
-import Button from '../src/components/Button';
-import BackLinkArrow from '../src/components/BackLinkArrow';
+import QuizContainer from '../../components/QuizContainer';
+import AlternativesForm from '../../components/AlternativesForm';
+import Button from '../../components/Button';
+import BackLinkArrow from '../../components/BackLinkArrow';
 
 function ResultWidget({ results }) {
   return (
     <Widget>
-      <Widget.Header>]
-        <BackLinkArrow href="/" />
-
+      <Widget.Header>
         Tela de Resultados:
       </Widget.Header>
 
@@ -174,13 +172,14 @@ const screenStates = {
   RESULT: 'RESULT',
 };
 
-export default function QuizPage() {
-  const totalQuestions = db.questions.length;
+export default function QuizPage({ externalQuestions, externalBg }) {
+  const totalQuestions = externalQuestions.length;
+  const bg = externalBg;
 
   const [currentQuestion, setCurrentQuestion] = React.useState(0);
   const questionIndex = currentQuestion;
 
-  const question = db.questions[questionIndex];
+  const question = externalQuestions[questionIndex];
 
   // !QUANTIDADE DE ACERTO
   const [results, setResults] = React.useState([]);
@@ -194,25 +193,25 @@ export default function QuizPage() {
 
   // !COLOCANDO TEMPO PARA ENTRAR NAS QUESTÕES
   const [screenState, setScreenState] = React.useState(screenStates.LOADING);
-  // *começa com o LOADING
+  // começa com o LOADING
 
   /*
-  ? [React chama de: Efeito || Effect]
-  ? atualizado == willUpdate
-  ? morre == willUnmount
-  */ // *ELE VAI ocorrer
+  [React chama de: Efeito || Effect]
+  atualizado == willUpdate
+  morre == willUnmount
+  */ // ELE VAI ocorrer
 
-  // ?mudar a tela tem que passar um tempo definido
+  // mudar a tela tem que passar um tempo definido
   React.useEffect(() => {
-    // TODO: fetch() ... => verifica se pegou e codifica para o usuário
+    // fetch() ... => verifica se pegou e codifica para o usuário
     setTimeout(() => {
       setScreenState(screenStates.QUIZ);
-      // *usa um hooks para mudar a tela
-    }, 1 * 1000);
-    // ? nasce === didMount
+      // usa um hooks para mudar a tela
+    }, 1 * 2000);
+    // nasce === didMount
   }, []);
   // usa um efeito para que depois de 1 segundo chama o hooks =>
-  // *entra no estado de "nasce = didMount"
+  // entra no estado de "nasce = didMount"
 
   // !MUDANDO QUANDO APERTA O BOTÃO
   function handleSubmitQuiz() {
@@ -225,7 +224,7 @@ export default function QuizPage() {
   }
 
   return (
-    <QuizBackground backgroundImage={db.bg}>
+    <QuizBackground backgroundImage={bg}>
       <Header />
       <QuizContainer>
         {/* Primeiro temos que ver o que está acontecendo na tela */}
