@@ -34,6 +34,12 @@ Widget.Header = styled.header`
   * {
     margin: 0;
   }
+
+  a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+  }
 `;
 
 //* Configuração do Conteúdo dos Widget

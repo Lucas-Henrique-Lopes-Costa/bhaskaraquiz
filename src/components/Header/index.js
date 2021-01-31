@@ -18,14 +18,14 @@ export default function Header() {
         <meta property="og:url" content="https://bhaskaraquiz.lucas-henrique-lopes-costa.vercel.app/" />
         <meta property="og:title" content="The Legend of Bhaskara" />
         <meta property="og:description" content="Projeto de Quiz construído a partir da comunidade Alura." />
-        <meta property="og:image" content="https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/1d15e786df3cc813ead9aa7d08ebe2e0ce13138e/src/image/background.jpg?raw=true" />
+        <meta property="og:image" content="https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/4b6caa4f7cd261517e59a3889164181aab152181/src/img/background.jpg" />
 
         {/* // Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://bhaskaraquiz.lucas-henrique-lopes-costa.vercel.app/" />
         <meta property="twitter:title" content="The Legend of Bhaskara" />
         <meta property="twitter:description" content="Projeto de Quiz construído a partir da comunidade Alura." />
-        <meta property="twitter:image" content="https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/1d15e786df3cc813ead9aa7d08ebe2e0ce13138e/src/image/background.jpg?raw=true" />
+        <meta property="twitter:image" content="https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/4b6caa4f7cd261517e59a3889164181aab152181/src/img/background.jpg" />
       </Head>
     </div>
   );

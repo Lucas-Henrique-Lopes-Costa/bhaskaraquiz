@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/prop-types */
 import React from 'react';
 import db from '../db.json';
@@ -10,11 +11,12 @@ import QuizContainer from '../src/components/QuizContainer';
 import AlternativesForm from '../src/components/AlternativesForm';
 import Button from '../src/components/Button';
 import BackLinkArrow from '../src/components/BackLinkArrow';
+import Link from '../src/components/Link';
 
 function ResultWidget({ results }) {
   return (
     <Widget>
-      <Widget.Header>]
+      <Widget.Header>
         <BackLinkArrow href="/" />
 
         Tela de Resultados:
@@ -52,6 +54,18 @@ function ResultWidget({ results }) {
           ))}
         </ul>
       </Widget.Content>
+
+      <Widget.Content>
+        {`${name}`}
+      </Widget.Content>
+
+      <Link href="/">
+        <Widget.Header>
+          <a>
+            Clique aqui para voltar para HOME
+          </a>
+        </Widget.Header>
+      </Link>
     </Widget>
   );
 }
@@ -245,7 +259,6 @@ export default function QuizPage() {
         )}
 
         {screenState === screenStates.RESULT && <ResultWidget results={results} />}
-
       </QuizContainer>
     </QuizBackground>
   );

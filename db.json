@@ -6,20 +6,20 @@
     {
       "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/ed2ff0e5a67a7e00caf59d0f230a3595d6124f1d/src/img/pergunta/pergunta1.gif?raw=true",
       "title": "Um terreno quadrado possui área de 144 metros quadrados e apenas a sua frente ainda não está murada. Quantos metros de muro terão que ser feitos para isolar completamente esse terreno?",
-      "description": "Faz tempo em haha (lembrando a grandiosisima música QUADRADINHO DE OITO)",
+      "description": "Faz tempo em haha...",
       "answer": 4,
       "alternatives": [
-        "a) 144 m",
-        "b) 576 m",
-        "c) 24 m",
-        "d) 18 m",
-        "e) 12 m"
+        "A) 144 m",
+        "B) 576 m",
+        "C) 24 m",
+        "D) 18 m",
+        "E) 12 m"
       ]
     },
     {
       "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/33fb182f98dbba3f3c90c7931f6a714698d2f704/src/img/pergunta/pergunta2.gif?raw=true",
       "title": "A multiplicação entre a idade de Kárita e a idade de Karla é igual a 374. Kárita é 5 anos mais velha que Karla. Quantos anos Karla e Kárita possuem respectivamente?",
-      "description": "Manda Kárita ir plantar bananeira e segue sua vida!",
+      "description": "Kárita e Karla gosta de complicar as coisas",
       "answer": 1,
       "alternatives": [
         "A) 12 e 17 anos",
@@ -32,7 +32,7 @@
     {
       "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/33fb182f98dbba3f3c90c7931f6a714698d2f704/src/img/pergunta/pergunta3.gif?raw=true",
       "title": "Se o Delta de uma Equação de 2º for igual a 0, quantas raízes teremos:",
-      "description": "Tenta não viajar nessa, hemmm??",
+      "description": "Tenta não viajar nessa, hemmm...",
       "answer": 2,
       "alternatives": [
         "A) Apenas uma raíz",
@@ -46,13 +46,13 @@
       "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/33fb182f98dbba3f3c90c7931f6a714698d2f704/src/img/pergunta/pergunta4.gif?raw=true",
       "title": "Por que você aprendeu isso:",
       "description": "Seja sincero",
-      "answer": 2,
+      "answer": 4,
       "alternatives": [
         "A) Porque fui obrigado",
         "B) Porque amo matemática",
-        "C) Porque isso faz toda diferença na minha vida",
-        "D) Porque eu sou um maluco",
-        "E) Nenhuma das anteriores"
+        "C) Porque eu sou um maluco",
+        "D) Nenhuma das anteriores",
+        "E) Porque isso faz toda diferença na minha vida"
       ]
     },
     {
