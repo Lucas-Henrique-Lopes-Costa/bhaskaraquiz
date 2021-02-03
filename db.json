@@ -4,7 +4,7 @@
     "description": "Teste os seus conhecimentos sobre Bhaskara e vamos ver quanto que os professores de Matemática consiguiram implantar em sua mente",
     "questions": [
     {
-      "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/ed2ff0e5a67a7e00caf59d0f230a3595d6124f1d/src/img/pergunta/pergunta1.gif?raw=true",
+      "image": "https://lh3.googleusercontent.com/proxy/gbytRSvmZmCH9f4ief3gzgmY82pwJu6MVeE2j2auw5lusYmsC4wYTnZ6DQz2_hzMDB-qRDdCor9LG8YgR1m7OFxWT31c76M8wUesv8ohrKGl9B0dMupKvzOxrFz-CsIH-z5j8KOI-BiC87Esfl2piOKYxntfF2Jgmvw1GZkjs0ihvFizto282Q8",
       "title": "Um terreno quadrado possui área de 144 metros quadrados e apenas a sua frente ainda não está murada. Quantos metros de muro terão que ser feitos para isolar completamente esse terreno?",
       "description": "Faz tempo em haha...",
       "answer": 4,
@@ -32,7 +32,7 @@
     {
       "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/33fb182f98dbba3f3c90c7931f6a714698d2f704/src/img/pergunta/pergunta3.gif?raw=true",
       "title": "Se o Delta de uma Equação de 2º for igual a 0, quantas raízes teremos:",
-      "description": "Tenta não viajar nessa, hemmm...",
+      "description": "Essa é fácil",
       "answer": 2,
       "alternatives": [
         "A) Apenas uma raíz",
@@ -53,16 +53,6 @@
         "C) Porque eu sou um maluco",
         "D) Nenhuma das anteriores",
         "E) Porque isso faz toda diferença na minha vida"
-      ]
-    },
-    {
-      "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/33fb182f98dbba3f3c90c7931f6a714698d2f704/src/img/pergunta/pergunta5.gif?raw=true",
-      "title": "Quer aprender mais:",
-      "description": "Veja essa playlist: encurtador.com.br/jsxAB",
-      "answer": 0,
-      "alternatives": [
-        "Sim",
-        "Não"
       ]
     }
   ],
