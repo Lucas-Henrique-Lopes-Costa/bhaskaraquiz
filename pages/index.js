@@ -65,11 +65,11 @@ export default function Home() {
           animate="show"
         >
           <Widget.Header>
-            <h1>The Legend of Bhaskara</h1>
+            <h1>Simulado de Eletrostática</h1>
           </Widget.Header>
 
           <Widget.Content>
-            <p>Será que você será melhor do que Pitágoras ??</p>
+            <p>Será que você consegue acertar todas as quetões?!</p>
 
             <form onSubmit={function (infosDoEvento) {
               infosDoEvento.preventDefault();
@@ -96,7 +96,7 @@ export default function Home() {
 
         <Widget>
           <Widget.Header>
-            <h1>Quizes da Galera</h1>
+            <h1>Outros Quizes</h1>
           </Widget.Header>
 
           <Widget.Content>
@@ -114,7 +114,7 @@ export default function Home() {
                   <li>
                     <Widget.Topic
                       as={Link}
-                      href={`/quiz/${projectName}___${githubUser}`}                      
+                      href={`/quiz/${projectName}___${githubUser}`}
                     >
                       {`${githubUser}/${projectName}`}
                     </Widget.Topic>
@@ -125,7 +125,7 @@ export default function Home() {
           </Widget.Content>
         </Widget>
 
-        <Footer
+        {/* <Footer
           as={motion.footer}
           transition={{ delay: 0.5, duration: 0.5 }}
           variants={{
@@ -134,7 +134,7 @@ export default function Home() {
           }}
           initial="hidden"
           animate="show"
-        />
+        /> */}
 
         <GitHubCorner projectUrl="https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz" />
       </QuizContainer>

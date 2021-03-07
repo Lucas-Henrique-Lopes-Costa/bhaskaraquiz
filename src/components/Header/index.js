@@ -7,7 +7,7 @@ export default function Header() {
       <Head>
         <meta property="og:title" content="The Legend of Bhaskara" key="title" />
         {/*  Primary Meta Tags */}
-        <title>The Legend of Bhaskara</title>
+        <title>Simulado Eletrostárica</title>
         <meta name="title" content="The Legend of Bhaskara" />
         <meta name="description" content="Projeto de Quiz construído a partir da comunidade Alura." />
 

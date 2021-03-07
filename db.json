@@ -1,58 +1,31 @@
 {
     "bg": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/main/src/img/background.jpg?raw=true",
-    "title": "Quiz do Bhaskara",
-    "description": "Teste os seus conhecimentos sobre Bhaskara e vamos ver quanto que os professores de Matemática consiguiram implantar em sua mente",
+    "title": "Física - Abud - Eletrostática",
+    "description": "Teste os seus conhecimentos sobre Eletrostática : )",
     "questions": [
     {
-      "image": "https://lh3.googleusercontent.com/proxy/gbytRSvmZmCH9f4ief3gzgmY82pwJu6MVeE2j2auw5lusYmsC4wYTnZ6DQz2_hzMDB-qRDdCor9LG8YgR1m7OFxWT31c76M8wUesv8ohrKGl9B0dMupKvzOxrFz-CsIH-z5j8KOI-BiC87Esfl2piOKYxntfF2Jgmvw1GZkjs0ihvFizto282Q8",
-      "title": "Um terreno quadrado possui área de 144 metros quadrados e apenas a sua frente ainda não está murada. Quantos metros de muro terão que ser feitos para isolar completamente esse terreno?",
-      "description": "Faz tempo em haha...",
-      "answer": 4,
+      "image": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/materiais-como-baloes-reguas-podem-ser-utilizados-para-analisar-ocorrencia-eletrizacao-5866696872383.jpg",
+      "title": "De acordo com os princípios da Eletrostática, ao atritarmos dois corpos, é possível que eles fiquem eletrizados. Ao realizar um processo de eletrização similar ao descrito no trecho anterior, observaremos:",
+      "description": "dica",
+      "answer": 3,
       "alternatives": [
-        "A) 144 m",
-        "B) 576 m",
-        "C) 24 m",
-        "D) 18 m",
-        "E) 12 m"
+        "A) Separação de cargas elétricas: um dos corpos irá ceder elétrons para outro corpo, que irá recebê-los, evidenciando o princípio da conservação da energia.",
+        "B) Geração de cargas elétricas: um dos corpos irá ceder elétrons para outro corpo, que irá recebê-los, evidenciando o princípio da conservação da carga elétrica.",
+        "C) Cargas de mesmo sinal e mesmo módulo nos dois corpos envolvidos no processo.",
+        "D) Transferência de cargas elétricas: um dos corpos irá ceder elétrons para outro corpo, que irá recebê-los, evidenciando o princípio da conservação da carga elétrica."
       ]
     },
     {
-      "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/33fb182f98dbba3f3c90c7931f6a714698d2f704/src/img/pergunta/pergunta2.gif?raw=true",
-      "title": "A multiplicação entre a idade de Kárita e a idade de Karla é igual a 374. Kárita é 5 anos mais velha que Karla. Quantos anos Karla e Kárita possuem respectivamente?",
-      "description": "Kárita e Karla gosta de complicar as coisas",
-      "answer": 1,
-      "alternatives": [
-        "A) 12 e 17 anos",
-        "B) 17 e 22 anos",
-        "C) 22 e 27 anos",
-        "D) 20 e 25 anos",
-        "E) 18 e 23 anos"
-      ]
-    },
-    {
-      "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/33fb182f98dbba3f3c90c7931f6a714698d2f704/src/img/pergunta/pergunta3.gif?raw=true",
-      "title": "Se o Delta de uma Equação de 2º for igual a 0, quantas raízes teremos:",
-      "description": "Essa é fácil",
+      "image": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/a-carga-eletrica-deve-se-existencia-dos-protons-eletrons-nos-atomos-5638ff453954a.jpg",
+      "title": "Determinado corpo encontra-se com excesso de 2*10¹⁷ elétrons. O sinal da carga adquirida por esse corpo e o seu módulo são respectivamente iguais a:",
+      "description": "Dados: 1,6.10^19 C.",
       "answer": 2,
       "alternatives": [
-        "A) Apenas uma raíz",
-        "B) Duas raízes ",
-        "C) Duas raízes iguais",
-        "D) Duas raízes diferente",
-        "E) Duas raízes que não pertencem ao conunto dos números reais"
-      ]
-    },
-    {
-      "image": "https://github.com/Lucas-Henrique-Lopes-Costa/bhaskaraquiz/blob/33fb182f98dbba3f3c90c7931f6a714698d2f704/src/img/pergunta/pergunta4.gif?raw=true",
-      "title": "Por que você aprendeu isso:",
-      "description": "Seja sincero",
-      "answer": 4,
-      "alternatives": [
-        "A) Porque fui obrigado",
-        "B) Porque amo matemática",
-        "C) Porque eu sou um maluco",
-        "D) Nenhuma das anteriores",
-        "E) Porque isso faz toda diferença na minha vida"
+        "A) 1,6.10-2 C",
+        "B) 0,8.10-2 C",
+        "C) 3,2.10-2 C",
+        "D) 2,0.10-3 C",
+        "E) 2,0.10-3 C"
       ]
     }
   ],

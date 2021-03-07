@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 // src/components/Footer/index.js
 const FooterWrapper = styled.footer`
-  background-color: #00000070;
+  background-color: #00000099;
   padding: 20px;
   display: flex;
   align-items: center;
@@ -32,12 +32,12 @@ export default function Footer(props) {
     // eslint-disable-next-line react/jsx-props-no-spreading
     <FooterWrapper {...props}>
       <p>
-        Criado durante
+        Criado por
         {' '}
         a
         {' '}
-        <a href="https://www.alura.com.br/">
-          <span>Imersão React da Alura</span>
+        <a href="https://lucas-henrique-lopes-costa.github.io/Lucas-Henrique-Lopes-Costa/">
+          <span>Lucas</span>
         </a>
       </p>
     </FooterWrapper>
