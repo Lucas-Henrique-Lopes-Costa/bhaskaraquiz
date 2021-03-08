@@ -100,7 +100,7 @@ export default function Home() {
           </Widget.Header>
 
           <Widget.Content>
-            <p>Aqui alguns outros quizes muito maneiros de alguns de meus colegas!!</p>
+            <p>Aqui tem outros simulados:</p>
 
             <ul>
               {db.external.map((linkExterno) => {
